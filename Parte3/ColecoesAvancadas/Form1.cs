@@ -27,7 +27,18 @@ namespace ColecoesAvancadas
             nomes.Add("Caio");
             //Podemos usar o addrange para adicionar uma coleção de itens
 
-            lista.Items.Add(nomes[0]);
+            //Verificacao e tamanho
+            nomes.Contains("Caio"); //Retorna true ou false se o item foi encontrado
+            nomes.Count(); //Retorna o numero de itens da lista
+
+            lista.Items.Add(nomes.Count());
+
+            //Remocao
+            nomes.Remove("Caio"); //Retorna true ou false se o item foi encontrado e removido
+
+            //Ordenacao
+            nomes.Sort(); //Ordena a lista em ordem alfabetica
+
         }
     }
 }
