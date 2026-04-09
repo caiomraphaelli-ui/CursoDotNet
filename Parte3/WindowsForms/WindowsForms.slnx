@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="../ColecoesAvancadas/ColecoesAvancadas.csproj" Id="2da50bfd-cce2-46c9-9d55-a24915824816" />
+  <Project Path="../JoKenPo/JoKenPo.csproj" Id="2b387094-6368-406c-82a4-d55bcf52108a" />
   <Project Path="../ManipulacaoStrings/ManipulacaoStrings.csproj" Id="e8fb90bb-544e-4e7d-9e8d-0503a7d6ab39" />
   <Project Path="../SistemaLogin/SistemaLogin.csproj" Id="db0554af-229c-4488-aa98-fd60fb8cf33f" />
   <Project Path="WindowsForms.csproj" Id="532faa80-3e95-40c5-a4e6-92cde3803f83" />

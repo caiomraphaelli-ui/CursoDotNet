@@ -32,6 +32,8 @@
             this.btnList = new System.Windows.Forms.Button();
             this.btnHashSet = new System.Windows.Forms.Button();
             this.btnDictionary = new System.Windows.Forms.Button();
+            this.btnSortedList = new System.Windows.Forms.Button();
+            this.btnQueue = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -41,7 +43,7 @@
             this.lista.ItemHeight = 24;
             this.lista.Location = new System.Drawing.Point(12, 12);
             this.lista.Name = "lista";
-            this.lista.Size = new System.Drawing.Size(599, 388);
+            this.lista.Size = new System.Drawing.Size(561, 364);
             this.lista.TabIndex = 0;
             // 
             // btnList
@@ -77,11 +79,35 @@
             this.btnDictionary.UseVisualStyleBackColor = true;
             this.btnDictionary.Click += new System.EventHandler(this.btnDictionary_Click);
             // 
+            // btnSortedList
+            // 
+            this.btnSortedList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSortedList.Location = new System.Drawing.Point(636, 207);
+            this.btnSortedList.Name = "btnSortedList";
+            this.btnSortedList.Size = new System.Drawing.Size(187, 59);
+            this.btnSortedList.TabIndex = 4;
+            this.btnSortedList.Text = "SortedList";
+            this.btnSortedList.UseVisualStyleBackColor = true;
+            this.btnSortedList.Click += new System.EventHandler(this.btnSortedList_Click);
+            // 
+            // btnQueue
+            // 
+            this.btnQueue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQueue.Location = new System.Drawing.Point(636, 272);
+            this.btnQueue.Name = "btnQueue";
+            this.btnQueue.Size = new System.Drawing.Size(187, 59);
+            this.btnQueue.TabIndex = 5;
+            this.btnQueue.Text = "Queue";
+            this.btnQueue.UseVisualStyleBackColor = true;
+            this.btnQueue.Click += new System.EventHandler(this.btnQueue_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(835, 474);
+            this.Controls.Add(this.btnQueue);
+            this.Controls.Add(this.btnSortedList);
             this.Controls.Add(this.btnDictionary);
             this.Controls.Add(this.btnHashSet);
             this.Controls.Add(this.btnList);
@@ -98,6 +124,8 @@
         private System.Windows.Forms.Button btnList;
         private System.Windows.Forms.Button btnHashSet;
         private System.Windows.Forms.Button btnDictionary;
+        private System.Windows.Forms.Button btnSortedList;
+        private System.Windows.Forms.Button btnQueue;
     }
 }
 
