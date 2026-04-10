@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="../ClassesImportantes/ClassesImportantes.csproj" Id="51342c50-92d3-4bc5-8a3f-0ba141c7ca9a" />
   <Project Path="../ColecoesAvancadas/ColecoesAvancadas.csproj" Id="2da50bfd-cce2-46c9-9d55-a24915824816" />
   <Project Path="../JoKenPo/JoKenPo.csproj" Id="2b387094-6368-406c-82a4-d55bcf52108a" />
   <Project Path="../ManipulacaoStrings/ManipulacaoStrings.csproj" Id="e8fb90bb-544e-4e7d-9e8d-0503a7d6ab39" />
