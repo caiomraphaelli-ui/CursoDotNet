@@ -59,7 +59,7 @@
             // btnRandom
             // 
             this.btnRandom.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnRandom.Location = new System.Drawing.Point(191, 410);
+            this.btnRandom.Location = new System.Drawing.Point(171, 410);
             this.btnRandom.Name = "btnRandom";
             this.btnRandom.Size = new System.Drawing.Size(143, 54);
             this.btnRandom.TabIndex = 2;
@@ -70,7 +70,7 @@
             // btnTimeSpam
             // 
             this.btnTimeSpam.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnTimeSpam.Location = new System.Drawing.Point(365, 410);
+            this.btnTimeSpam.Location = new System.Drawing.Point(330, 410);
             this.btnTimeSpam.Name = "btnTimeSpam";
             this.btnTimeSpam.Size = new System.Drawing.Size(143, 54);
             this.btnTimeSpam.TabIndex = 3;
@@ -81,7 +81,7 @@
             // btnDateTime
             // 
             this.btnDateTime.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnDateTime.Location = new System.Drawing.Point(526, 410);
+            this.btnDateTime.Location = new System.Drawing.Point(493, 410);
             this.btnDateTime.Name = "btnDateTime";
             this.btnDateTime.Size = new System.Drawing.Size(143, 54);
             this.btnDateTime.TabIndex = 4;
@@ -92,7 +92,7 @@
             // btnEnvironment
             // 
             this.btnEnvironment.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnEnvironment.Location = new System.Drawing.Point(687, 410);
+            this.btnEnvironment.Location = new System.Drawing.Point(664, 410);
             this.btnEnvironment.Name = "btnEnvironment";
             this.btnEnvironment.Size = new System.Drawing.Size(143, 54);
             this.btnEnvironment.TabIndex = 5;
